@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_mrinmoy</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/4d7b8e66-414a-42cf-ba9b-0c4606edd982/resourceGroups/az-group-rg2/providers/microsoft.insights/components/azure-app-Mmrinmoy</ApplicationInsightsResourceId>
+    <UserSecretsId>e762cc77-1637-44f2-9f11-5cb6c43c2c56</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
