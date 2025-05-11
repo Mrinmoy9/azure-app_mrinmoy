@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure-app_mrinmoy", "azure-app_mrinmoy.csproj", "{1FD3D10A-9490-B185-27DF-3995F5C3641C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.AzureCosmosDb.Demo", "..\Blazor.AzureCosmosDb.Demo\Blazor.AzureCosmosDb.Demo.csproj", "{C7AF3562-365B-4D59-AE9B-2F7CD93C7268}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1FD3D10A-9490-B185-27DF-3995F5C3641C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD3D10A-9490-B185-27DF-3995F5C3641C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD3D10A-9490-B185-27DF-3995F5C3641C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AF3562-365B-4D59-AE9B-2F7CD93C7268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AF3562-365B-4D59-AE9B-2F7CD93C7268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AF3562-365B-4D59-AE9B-2F7CD93C7268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AF3562-365B-4D59-AE9B-2F7CD93C7268}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
